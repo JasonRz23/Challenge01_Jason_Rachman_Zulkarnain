@@ -1,0 +1,381 @@
+header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: #f1f3ff;
+}
+
+.container {
+  width: 80%;
+  height: 84px;
+  margin: auto;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* logo */
+nav .logo {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+.btn.btn-primary {
+  background-color: #5cb85f;
+}
+
+/* navbar */
+.collapse ul li {
+  margin: 20px;
+}
+.collapse ul li a {
+  color: #000000;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.collapse ul li.register {
+  background-color: #5cb85f;
+  width: 81px;
+  height: 36px;
+  left: 350px;
+  border-radius: 2px;
+  padding: 8px, 12px, 8px, 12px;
+  text-align: center;
+}
+.collapse ul li.register a {
+  color: #ffffff;
+}
+/* mobil */
+.konten-mobil {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  height: 100%;
+}
+.konten-mobil .konten-kiri {
+  position: relative;
+  left: 0px;
+  top: 107px;
+  width: 50%;
+  height: 450%;
+}
+.konten-mobil .konten-kiri h1 {
+  width: 568px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+.konten-mobil .konten-kanan {
+  position: relative;
+  top: 15px;
+  right: -5em;
+  width: 740px;
+  height: 407;
+}
+.konten-kanan img {
+  position: relative;
+  right: -4.5rem;
+  width: 660px;
+  height: 80%;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* service */
+main {
+  position: relative;
+  width: 100%;
+  height: 350vh;
+}
+
+.konten-service {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: 50px;
+  height: 10vh;
+}
+.konten-service .konten-tulisan {
+  position: relative;
+  left: 7em;
+  top: 100px;
+  width: 50%;
+  height: 450px;
+}
+.konten-service .konten-tulisan h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+.konten-service .konten-tulisan p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.konten-service .konten-gambar {
+  position: relative;
+  left: 3em;
+  top: 40px;
+  width: 604px;
+  height: 407px;
+}
+
+.konten-service .konten-list {
+  position: relative;
+  width: 340px;
+  height: 20px;
+  left: 6px;
+  top: 5px;
+  list-style: none;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.konten-list li .fa-circle-check {
+  margin: 0 1rem 1rem 0;
+}
+
+/* why us */
+.why-us {
+  position: relative;
+  height: 36px;
+  left: 9.44%;
+  right: 58.06%;
+  top: 450px;
+}
+.why-us h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+.why-us p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* card */
+.card-group {
+  position: relative;
+  top: 30rem;
+  width: 100%;
+  height: 80vh;
+  right: 58%;
+  left: 2%;
+}
+.card {
+  width: 500px;
+  height: 200px;
+  margin: 30px;
+  border-radius: 9px !important;
+  border: 1px solid gray !important;
+}
+.card img {
+  width: 30px;
+  margin: 15px 1rem;
+  /* height: 30px; */
+}
+.card-title {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.card-text {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* testimonial */
+.classTest h2 {
+  height: 36px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+.classTest {
+  position: relative;
+  top: 15em;
+}
+
+.classTest p {
+  height: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.owl-carousel .item .card {
+  width: 619px;
+  height: 270px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #f1f3ff;
+}
+
+.container-fluid .owl-carousel .item {
+  position: relative;
+  margin: 0 2rem;
+}
+
+.owl-carousel .item .card .foto {
+  padding: 95px 40px;
+}
+
+.owl-carousel .item .card .review {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card .img {
+  width: 80px;
+  height: 80px;
+}
+
+.review img {
+  width: 80px !important;
+  height: 16px;
+  margin-bottom: 10px;
+}
+.owl-stage .owl-item {
+  margin: 0 6em;
+}
+.owl-stage {
+  display: flex;
+  width: 100% !important;
+}
+
+p.p-review {
+  width: 415px;
+  height: 80px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* sewa mobil */
+.sewa-mobil {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  margin: auto;
+  top: 17em;
+  text-align: center;
+  padding: 5em 15em 5em 15em;
+  background-color: #0d28a6;
+  border-radius: 10px;
+}
+.sewa-mobil h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.sewa-mobil p {
+  color: #ffffff;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+}
+.sewa-mobil .button {
+  background-color: #5cb85f;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+/* FAQ */
+.container-faq {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0 5rem 0;
+  display: flex;
+  top: 18em;
+}
+
+.container-faq .box-kiri {
+  width: 40%;
+  height: 100%;
+  margin: 1em;
+}
+
+.container-faq .box-kiri h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.container-faq .box-kanan {
+  width: 60%;
+  height: 100%;
+}
+
+.container-faq .box-kanan .accordion-item {
+  border: 1px solid gray !important;
+  border-radius: 1px;
+  margin: 1em 0;
+}
+
+/* footer content */
+footer {
+  position: relative;
+  width: 100%;
+  top: 18em;
+  height: 30vh;
+}
+footer > .container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.footer-box1 {
+  width: 30%;
+  height: 100%;
+}
+.footer-box2 {
+  width: 20%;
+  height: 100%;
+}
+.footer-box3 {
+  width: 25%;
+  height: 100%;
+}
+.footer-box4 {
+  width: 25%;
+  height: 100%;
+}

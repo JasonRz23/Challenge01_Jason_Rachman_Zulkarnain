@@ -1,0 +1,24 @@
+@media screen and (max-width: 480px) {
+  .konten-mobil {
+    flex-direction: column;
+    width: 80%;
+  }
+  .konten-mobil .konten-kiri {
+    width: 100%;
+    top: 0;
+  }
+  .konten-mobil .konten-kiri h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .konten-mobil .konten-kanan {
+    width: 100%;
+    right: 0;
+    z-index: 3;
+  }
+  .konten-kanan img {
+    opacity: 0.2;
+    width: 110%;
+    right: 0;
+  }
+}
